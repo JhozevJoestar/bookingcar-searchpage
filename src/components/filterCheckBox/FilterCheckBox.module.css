@@ -1,0 +1,43 @@
+.container{
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.hiddenCheckbox{
+    width: 24px;
+    height: 24px;
+    opacity: 0;
+    z-index: 2;
+    position: absolute;
+    cursor: pointer;
+}
+
+.customCheckbox{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border: solid 1px #313131;
+    display: block;
+    border-radius: 4px;
+    position: absolute;
+    top: -1px;
+    cursor: pointer;
+}
+.customCheckboxActive{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border: solid 2px #1A62CF;
+    display: block;
+    border-radius: 4px;
+    position: absolute;
+    top: -1px;
+    cursor: pointer;
+}
+.customCheckboxActive img{
+    position: relative;
+    left: 4px;
+    top: 1px;
+    width: 13px;
+}
